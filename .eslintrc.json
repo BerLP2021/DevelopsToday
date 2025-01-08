@@ -1,3 +1,7 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+    "extends": ["next/core-web-vitals", "next/typescript", "prettier"],
+    "root": true,
+    "rules": {
+        "@next/next/no-html-link-for-pages": "off"
+    }
 }
